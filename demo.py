@@ -35,6 +35,3 @@ print("明文对应的数字:", m)
 print("密文：", c)
 print("通过密文解密得到的数字:", m_decoded)
 print("通过密文解密得到的数字对应的字符串:", string_decoded)
-
-import os
-print("\n".join(os.listdir(os.getcwd())))
